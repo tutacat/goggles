@@ -1,0 +1,9 @@
+! name: Anti fandom com
+! description: Hide block downrank fandom.com for any organic wikis
+! public: true
+! author: tutacat
+/wiki/$boost=3
+/w/$boost=3
+/index.php$boost=2
+$boost=-6,site=fandom.com
+$boost=-6,site=wikia.com
