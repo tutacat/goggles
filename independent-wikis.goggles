@@ -1,7 +1,8 @@
 ! name: Independent wikis
-! description: Hide fandom. Promote organic and useful wikis/forums/blogs and downrank big companies that don't contribute
+! description: Hide fandom. Promote organic and useful wikis/forums/blogs and downrank big companies that don't contribute. Please suggest better names over on github.com/tutacat/goggles.
 ! public: true
 ! author: tutacat
+! avatar: #8877dd
 $downrank=4,site=fandom.com
 $downrank=4,site=wikia.com
 $downrank=3,site=wikipedia.org
@@ -13,7 +14,7 @@ $downrank=3,site=wikipedia.org
 /news/
 /blog/
 /forums/
-
+/topic/
 
 # larger groups
 $boost=2,site=wiki.gg
