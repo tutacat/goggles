@@ -11,31 +11,31 @@ $downrank=3,site=wikipedia.org
 /wiki/$boost=2
 /w/$boost=2
 /index.php$boost=2
-/news/
-/blog/
-/forums/
-/topic/
+/news/$boost=2
+/blog/$boost=2
+/forums/$boost=2
+/topic/$boost=2
 
 # larger groups
-$boost=2,site=wiki.gg
-$boost=2,site=miraheze.org
+$boost=4,site=wiki.gg
+$boost=4,site=miraheze.org
 
 # smaller sites
-$boost=2,site=archlinux.org
-$boost=2,site=boardgamegeek.com
-$boost=2,site=bulbagarden.net
-$boost=2,site=factorio.com
-$boost=2,site=fextralife.com
-$boost=2,site=minecraft.wiki
-$boost=2,site=mobileread.com
-$boost=2,site=phoronix.com
-$boost=2,site=pzwiki.com
-$boost=2,site=runescape.wiki
-$boost=2,site=touhouwiki.net
-$boost=2,site=videogamegeek.com
-$boost=2,site=westeros.org
-$boost=2,site=wiki.vg
+$boost=4,site=archlinux.org
+$boost=4,site=boardgamegeek.com
+$boost=4,site=bulbagarden.net
+$boost=4,site=factorio.com
+$boost=4,site=fextralife.com
+$boost=4,site=minecraft.wiki
+$boost=4,site=mobileread.com
+$boost=4,site=phoronix.com
+$boost=4,site=pzwiki.com
+$boost=4,site=runescape.wiki
+$boost=4,site=touhouwiki.net
+$boost=4,site=videogamegeek.com
+$boost=4,site=westeros.org
+$boost=4,site=wiki.vg
 
 # less useful
-$boost=1,site=wiki.ubuntu.com
+$boost=2,site=wiki.ubuntu.com
 
