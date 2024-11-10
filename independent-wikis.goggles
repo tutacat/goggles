@@ -1,30 +1,40 @@
 ! name: Independent wikis
-! description: Promote independent wikis and hide block downrank fandom com and big companies for organic wikis
+! description: Hide fandom. Promote organic and useful wikis/forums/blogs and downrank big companies that don't contribute
 ! public: true
 ! author: tutacat
 $downrank=4,site=fandom.com
 $downrank=4,site=wikia.com
-$downrank=2,site=wikipedia.org
+$downrank=3,site=wikipedia.org
 
+# general wiki pages
 /wiki/$boost=2
 /w/$boost=2
 /index.php$boost=2
+/news/
+/blog/
+/forums/
 
+
+# larger groups
 $boost=2,site=wiki.gg
 $boost=2,site=miraheze.org
 
-$boost=2,site=bulbapedia.bulbagarden.net
-$boost=2,site=wiki.fextralife.com
-$boost=2,site=minecraft.wiki
+# smaller sites
+$boost=2,site=archlinux.org
 $boost=2,site=boardgamegeek.com
-$boost=2,site=videogamegeek.com
-$boost=2,site=runescape.wiki
-$boost=2,site=wiki.vg
-$boost=2,site=awoiaf.westeros.org
-$boost=2,site=wiki.factorio.com
-$boost=2,site=touhouwiki.net
+$boost=2,site=bulbagarden.net
+$boost=2,site=factorio.com
+$boost=2,site=fextralife.com
+$boost=2,site=minecraft.wiki
+$boost=2,site=mobileread.com
+$boost=2,site=phoronix.com
 $boost=2,site=pzwiki.com
-$boost=2,site=wiki.mobileread.com
-$boost=2,site=wiki.archlinux.com
+$boost=2,site=runescape.wiki
+$boost=2,site=touhouwiki.net
+$boost=2,site=videogamegeek.com
+$boost=2,site=westeros.org
+$boost=2,site=wiki.vg
 
+# less useful
 $boost=1,site=wiki.ubuntu.com
+
